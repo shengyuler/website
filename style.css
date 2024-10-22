@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #000;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #555;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#about {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#portfolio {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#portfolio .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
