@@ -16,7 +16,6 @@ body {
 header {
     padding: 60px 20px;
     background-color: #ffffff; /* White background for the header */
-    border-bottom: 2px solid #e0e0e0; /* Subtle bottom border */
 }
 
 header h1 {
@@ -32,18 +31,11 @@ header p {
 /* Section Styles */
 section {
     padding: 40px 20px;
-    max-width: 800px; /* Optional: limit the max width for better readability */
+    margin: 0; /* Remove margin to eliminate gaps */
     background-color: #ffffff; /* White background for sections */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 20px auto; /* Center section and add vertical spacing */
 }
 
 /* Contact Section */
-#contact {
-    margin-top: -20px; /* Optional: pull the contact section closer */
-}
-
 #contact p {
     font-size: 1.1em;
 }
@@ -63,15 +55,6 @@ h2 {
     font-size: 2em;
     margin-bottom: 15px;
     color: #333; /* Dark gray for section titles */
-}
-
-.projects {
-    margin-top: 10px;
-}
-
-.projects h3 {
-    font-size: 1.5em;
-    color: #007BFF; /* Link color for project titles */
 }
 
 /* Link Styles */
