@@ -60,7 +60,9 @@ h2 {
 /* Link Styles */
 a {
     color: #007BFF; /* Link color */
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
+    font-weight: normal; /* Make the font weight normal (unbold) */
+    font-size: 1em; /* Adjust size to match regular text */
 }
 
 a:hover {
