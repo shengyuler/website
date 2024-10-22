@@ -10,10 +10,10 @@ body {
     background-color: #f2f2f2; /* Light gray background */
     color: #333; /* Dark gray text color */
     line-height: 1.6;
+    text-align: center; /* Center align all text in body */
 }
 
 header {
-    text-align: center;
     padding: 60px 20px;
     background-color: #ffffff; /* White background for the header */
     border-bottom: 2px solid #e0e0e0; /* Subtle bottom border */
@@ -32,20 +32,25 @@ header p {
 /* Section Styles */
 section {
     padding: 40px 20px;
-    margin: 20px 0; /* Vertical spacing between sections */
+    margin: 0; /* Remove margins to eliminate space */
+    max-width: 800px; /* Optional: limit the max width for better readability */
     background-color: #ffffff; /* White background for sections */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Contact Section */
+#contact {
+    margin-top: -20px; /* Optional: pull the contact section closer */
+}
+
 #contact p {
     font-size: 1.1em;
 }
 
 /* About Section */
 #about {
-    text-align: center;
+    text-align: center; /* Center text in the about section */
 }
 
 #about h2 {
