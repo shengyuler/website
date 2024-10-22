@@ -11,6 +11,8 @@ body {
     color: #333; /* Dark gray text color */
     line-height: 1.6;
     text-align: center; /* Center align all text in body */
+    height: 100%; /* Ensures body takes full height */
+    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
 
 header {
