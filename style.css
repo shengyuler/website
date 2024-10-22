@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,14 +8,24 @@ body {
     line-height: 1.6;
 }
 
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 50px 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 header {
-    background-color: #ffffff;
-    padding: 100px 20px;
+    background-color: #f4f4f4;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -26,30 +37,29 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    color: #555;
+    color: #666;
 }
 
+/* Contact Section */
 #contact {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 30px 20px;
-    margin-bottom: 20px;
-    border-top: 1px solid #ddd;
 }
 
 #contact a {
     font-weight: bold;
 }
 
+/* About Section */
 #about {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 50px 20px;
-    margin-bottom: 20px;
 }
 
+/* Recent Writings Section */
 #RecentWritings {
     background-color: #f4f4f4;
     padding: 50px 20px;
-    margin-bottom: 20px;
 }
 
 .projects h3 {
@@ -57,15 +67,8 @@ header p {
     margin: 20px 0;
 }
 
+/* Recent Works Section */
 #RecentWorks {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 50px 20px;
-    margin-bottom: 20px;
-}
-
-.projects {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
 }
