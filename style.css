@@ -1,40 +1,80 @@
- /* Global Styles */
-body {
-    font-family: 'Arial', sans-serif;
+/* Global Styles */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333; /* Dark gray text color */
     line-height: 1.6;
 }
 
 header {
-    background-color: #f4f4f4;
-    padding: 80px 20px;
     text-align: center;
-    margin-bottom: 10px; /* Reduce bottom margin */
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background for the header */
+    border-bottom: 2px solid #e0e0e0; /* Subtle bottom border */
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 0;
-    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
-    color: #666;
+    color: #555; /* Medium gray for the subheading */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px 0; /* Vertical spacing between sections */
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Contact Section */
-#contact {
-    background-color: #f4f4f4;
-    padding: 20px 20px; /* Adjust padding */
-    margin-top: 0;      /* Remove any top margin */
+#contact p {
+    font-size: 1.1em;
 }
 
 /* About Section */
 #about {
-    background-color: #f4f4f4;
-    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Recent Writings and Works Sections */
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333; /* Dark gray for section titles */
+}
+
+.projects {
+    margin-top: 10px;
+}
+
+.projects h3 {
+    font-size: 1.5em;
+    color: #007BFF; /* Link color for project titles */
+}
+
+/* Link Styles */
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
 }
