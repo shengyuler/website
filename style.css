@@ -7,39 +7,34 @@
 
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f2f2f2; /* Light gray background */
-    color: #333; /* Dark gray text color */
-    line-height: 1.6;
+    background-color: #17131D; /* Light gray background */
+    color: #ffffff; /* Dark gray text color */
+    line-height: 1.5;
     text-align: center; /* Center align all text in body */
     height: 100%; /* Ensures body takes full height */
     min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
 
 header {
-    padding: 60px 20px;
-    background-color: #ffffff; /* White background for the header */
+    padding: 60px 10px;
+    background-color: #17131D; /* White background for the header */
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 0px;
 }
 
 header p {
-    font-size: 1.2em;
-    color: #555; /* Medium gray for the subheading */
+    font-size: 1em;
+    color: #ffffff; /* Medium gray for the subheading */
 }
 
 /* Section Styles */
 section {
     padding: 40px 20px;
     margin: 0; /* Remove margin to eliminate gaps */
-    background-color: #ffffff; /* White background for sections */
-}
-
-/* Contact Section */
-#contact p {
-    font-size: 1.1em;
+    background-color: #17131D; /* White background for sections */
 }
 
 /* About Section */
@@ -48,15 +43,15 @@ section {
 }
 
 #about h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
 /* Recent Writings and Works Sections */
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 15px;
-    color: #333; /* Dark gray for section titles */
+    color: #ffffff; /* Dark gray for section titles */
 }
 
 /* Link Styles */
@@ -64,7 +59,7 @@ a {
     color: #007BFF; /* Link color */
     text-decoration: none; /* Remove underline */
     font-weight: normal; /* Make the font weight normal (unbold) */
-    font-size: 1em; /* Adjust size to match regular text */
+    font-size: 0.9em; /* Adjust size to match regular text */
 }
 
 a:hover {
