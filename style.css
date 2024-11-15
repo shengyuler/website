@@ -59,7 +59,6 @@ a {
     color: #007BFF; /* Link color */
     text-decoration: none; /* Remove underline */
     font-weight: normal; /* Make the font weight normal (unbold) */
-    font-size: 0.9em; /* Adjust size to match regular text */
 }
 
 a:hover {
