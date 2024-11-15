@@ -56,9 +56,9 @@ section h2 {
 }
 
 /* Links inside project sections */
-.projects h3 a {
+section p a {
     color: #007BFF; /* Match other link colors */
-    font-size: 0.9em; /* Match the regular text size */
+    font-size: 1em; /* Match the regular text size */
     text-decoration: none;
     font-weight: normal; /* Ensures links inside h3 are not bold */
 
