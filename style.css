@@ -18,28 +18,17 @@ body {
 header {
     padding: 60px 10px;
     background-color: #17131D; /* White background for the header */
-}
-
-header h1 {
-    font-size: 2em;
-    margin-bottom: 0px;
-}
-
-header p {
     font-size: 1em;
     color: #ffffff; /* Medium gray for the subheading */
 }
+
+
 
 /* Section Styles */
 section {
     padding: 40px 20px;
     margin: 0; /* Remove margin to eliminate gaps */
     background-color: #17131D; /* White background for sections */
-}
-
-/* About Section */
-#about {
-    text-align: center; /* Center text in the about section */
 }
 
 #about h2 {
