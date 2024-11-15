@@ -58,7 +58,6 @@ h2 {
 a {
     color: #007BFF; /* Link color */
     text-decoration: none; /* Remove underline */
-    font-weight: normal; /* Make the font weight normal (unbold) */
 }
 
 a:hover {
