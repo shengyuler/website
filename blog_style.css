@@ -10,10 +10,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #17131D; /* Dark background */
     color: #ffffff; /* Light text color */
-    text-align: center; /* Center-align all text */
+    text-align: left; /* Left-align text for better readability */
     line-height: 1.6; /* Improve line spacing for readability */
     padding-bottom: 50px; /* Space for footer */
-
 }
 
 /* Header styles */
@@ -25,7 +24,7 @@ header {
 
 /* Main title style */
 header h1 {
-    font-size: 2em; /* Large font size */
+    font-size: 2.5em; /* Large font size */
     margin-bottom: 10px; /* Space below the main title */
 }
 
@@ -39,44 +38,47 @@ header p {
 a {
     color: #007BFF; /* Blue color for links */
     text-decoration: none; /* Remove underline */
-    margin: 0 5px; /* Space between each social link */
 }
 
-/* Underline links on hover */
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
 
 /* Style for each section (e.g., About Me, Recent Writings, Recent Works) */
 section {
-    padding: 20px 20px; /* Space around each section */
+    padding: 40px 20px; /* Space around each section */
     max-width: 800px; /* Set a max width for better readability */
     margin: 20px auto; /* Center the section and add space */
 }
 
 /* Section titles */
 section h2 {
-    font-size: 1.5em; /* Slightly larger than regular text */
-    margin-bottom: 10px; /* Space below the section title */
+    font-size: 1.8em; /* Slightly larger than regular text */
+    margin-bottom: 20px; /* Space below the section title */
     color: #ffffff; /* White text color for titles */
     text-align: center; /* Center-align section titles */
 }
 
 /* Style for paragraph text in sections */
 section p {
-    font-size: 1em; /* Slightly larger font for paragraph text */
-    margin-bottom: 10px; /* Space between paragraphs */
+    font-size: 1.1em; /* Slightly larger font for paragraph text */
+    margin-bottom: 20px; /* Space between paragraphs */
     line-height: 1.8; /* Increase line height for better readability */
 }
 
-/* Links inside project sections */
+/* Style for links inside sections */
 section p a {
     color: #007BFF; /* Match other link colors */
-    font-size: 1em; /* Match the regular text size */
+    font-size: 1.1em; /* Match the regular text size */
     text-decoration: none;
 }
 
+section p a:hover {
+    text-decoration: underline;
+}
+
 footer {
+    background-color: #333; /* Arka plan rengi */
     color: white; /* Yazı rengi */
     text-align: center; /* Ortalanmış metin */
     padding: 10px 0; /* Üst ve alt padding */
